@@ -5,7 +5,7 @@ locale: zh_TW
 description: 
 logo: 
 search: true
-url: 
+url: http://www.aaronchiang.tw
 timezone: Asia/Taipei
 
 # Jekyll configuration
