@@ -212,9 +212,9 @@ span + .entry-title {
 }
 .entry-title {
 	font-family: $alt-font;
-	font-style: italic;
-	@include font-rem(36);
-	font-weight: 200;
+	//font-style: italic;
+	@include font-rem(25);
+	// font-weight: 200;
 	line-height: 1;
 	letter-spacing: -3px;
 	a {
@@ -223,11 +223,11 @@ span + .entry-title {
 	}
 	@media #{$medium} {
 		max-width: 600px;
-		@include font-rem(52);
+		@include font-rem(36);
 	}
 	@media #{$large} {
 		max-width: 800px;
-		@include font-rem(68);
+		@include font-rem(48);
 	}
 }
 .entry-wrapper {
