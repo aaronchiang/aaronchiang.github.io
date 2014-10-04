@@ -216,7 +216,7 @@ span + .entry-title {
 	@include font-rem(25);
 	// font-weight: 200;
 	line-height: 1;
-	letter-spacing: -3px;
+	//letter-spacing: -3px;
 	a {
 		color: $black;
 		text-decoration: underline;

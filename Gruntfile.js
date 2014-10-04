@@ -47,6 +47,19 @@ module.exports = function(grunt) {
         }]
       }
     },
+    sass: {
+      options: {
+        includePaths: ['_sass']
+      },
+      dist: {
+        options: {
+          outputStyle: 'compressed',
+        },
+        files: {
+          '/assets/css/main.css': '_sass/*.scss'
+        }
+      }
+    },
     watch: {
       js: {
         files: [
@@ -69,13 +82,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-sass');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'uglify',
     'imagemin',
-    'svgmin'
+    'svgmin',
+    'sass'
   ]);
   grunt.registerTask('dev', [
     'watch'
