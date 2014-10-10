@@ -2,10 +2,10 @@
 
 title: "行到水窮處 坐看雲起時"
 locale: zh_TW
-description: 
-logo: 
+description: "勾繪生活中的每一步足跡"
+logo:
 search: true
-url: http://www.aaronchiang.tw
+url:
 timezone: Asia/Taipei
 
 # Jekyll configuration
@@ -50,5 +50,5 @@ owner:
     analytics:
     verify:
     ad-client:
-    ad-slot: 
+    ad-slot:
   bing-verify:
