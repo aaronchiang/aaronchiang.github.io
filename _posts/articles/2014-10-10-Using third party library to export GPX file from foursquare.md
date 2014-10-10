@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "使用第三方函式庫匯出 Forsquare Check-in 資料"
+description: 
 tags: [c# forsquare]
 comments: true
 share: true
+image:
+  feature: 2014-10-10/foursquare-check-in-800.jpg
+  creditlink: http://www.dontfeartheforward.com
 ---
 
 ### 申請 Token
@@ -37,7 +41,7 @@ public SharpSquare(string accessToken)
 3. 輸入紅線圈顯處的值
 ![LINQPad Add Namespace](/images/2014-10-10/linqpad_setting2.png)
 
-4. 貼上下列程式碼，並替換掉所申請的 **Token** ，按下 ```F5``` 執行，則下方結果區會出現你在 [Foursquare](http://www.foursquare.com) 所有的 **Check-in** 記錄。
+4. 貼上下列程式碼，並替換掉所申請的 **Token** ，按下 ```F5``` 執行，則下方結果區會出現你在 [Foursquare](http://foursquare.com) 所有的 **Check-in** 記錄。
 
 {% highlight csharp %}
 void Main()
