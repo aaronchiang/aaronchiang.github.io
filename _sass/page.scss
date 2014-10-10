@@ -73,8 +73,8 @@ body {
 }
 .no-js #site-nav {
 	display: block;
-}	
-#nav-toggle { 
+}
+#nav-toggle {
 	z-index: 9999;
 	display: block;
 	vertical-align: top;
@@ -145,7 +145,7 @@ body {
     -webkit-animation-delay: .75s;
     -moz-animation-delay: .75s;
     -o-animation-delay: .75s;
-    animation-delay: .75s;	
+    animation-delay: .75s;
 	a { color: $black; }
 }
 .site-description {
@@ -163,7 +163,7 @@ body {
     -o-animation-delay: 1s;
     animation-delay: 1s;
 	@media #{$medium} {
-		@include font-rem(20);
+		@include font-rem(24);
 	}
 }
 
@@ -213,7 +213,7 @@ span + .entry-title {
 .entry-title {
 	font-family: $alt-font;
 	//font-style: italic;
-	@include font-rem(25);
+	@include font-rem(16);
 	// font-weight: 200;
 	line-height: 1;
 	//letter-spacing: -3px;
@@ -223,11 +223,11 @@ span + .entry-title {
 	}
 	@media #{$medium} {
 		max-width: 600px;
-		@include font-rem(36);
+		@include font-rem(24);
 	}
 	@media #{$large} {
 		max-width: 800px;
-		@include font-rem(48);
+		@include font-rem(36);
 	}
 }
 .entry-wrapper {
@@ -364,13 +364,13 @@ span + .entry-title {
 		@include font-rem(14);
 		line-height: 2.5;
 	}
-	a { 
+	a {
 		padding: 4px 6px;
 		margin: 2px;
 		background-color: lighten($black, 90);
 		@include rounded(4px);
 		text-decoration: none;
-		span { 
+		span {
 			vertical-align: super;
 			@include font-rem(10);
 		}
