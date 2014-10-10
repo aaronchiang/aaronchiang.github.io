@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用第三方函式庫匯出 Forsquare Check-in 資料"
-description: 
+description: "利用 SharpSquare 匯出 GPX 格式"
 tags: [c# forsquare]
 comments: true
 share: true
