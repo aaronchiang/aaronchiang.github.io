@@ -1,15 +1,20 @@
 ---
 layout: post
 title: "使用第三方函式庫匯出 Forsquare Check-in 資料"
-description: "利用 SharpSquare 匯出 GPX 格式"
 categories: articles 
 tags: [c# forsquare]
 comments: true
 share: true
 image:
   feature: 2014-10-10/foursquare-check-in-800.jpg
+  thumb: 2014-10-10/foursquare-check-in-200.jpg
+  credit: dontfeartheforward
   creditlink: http://www.dontfeartheforward.com
 ---
+
+在 [Twitter](http://twitter.com) 上面看到有人把 [Move](https://itunes.apple.com/tw/app/moves/id509204969?l=zh&mt=8) 的紀錄匯入到 [世界迷霧](https://itunes.apple.com/tw/app/shi-jie-mi-wu/id505367096?l=zh&mt=8) 上，於是想到把自己的 [Foursquare](http://foursquare.com) Check-In 記錄給匯出成 **GPX** 格式，方便匯入。
+
+<!-- more -->
 
 ### 申請 Token
 

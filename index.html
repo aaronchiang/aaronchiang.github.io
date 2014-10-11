@@ -1,11 +1,14 @@
 ---
 layout: page
-title: 
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+title:
+excerpt: "勾繪生活中的每一步足跡"
+image:
+  feature: 031413F47-D295A0F6444903C0.jpg
+  credit: Mary's Rock Summit Trail - Shenandoah
 ---
 
 <ul class="post-list">
-{% for post in site.posts limit:5 %} 
+{% for post in site.posts limit:10 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
