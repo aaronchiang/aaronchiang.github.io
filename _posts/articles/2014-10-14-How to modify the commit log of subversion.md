@@ -8,7 +8,6 @@ share: true
 ---
 
 人有失手，馬有錯蹄，有時候總是手快地把 commit log 打完，按下 ```OK``` 鍵送出後，才發現內容有誤，但是該怎麼修改 log 呢？
-
 <!-- more -->
 
 #### 開啟 [TortoiseSVN](http://tortoisesvn.net/) 選單，選擇 Show log (顯示記錄)

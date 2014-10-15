@@ -5,7 +5,8 @@ locale: zh_TW
 description: "勾繪生活中的每一步足跡"
 logo:
 search: true
-url:
+url: http://www.aaronchiang.tw
+url: http://0.0.0.0:4000
 timezone: Asia/Taipei
 
 # Jekyll configuration
