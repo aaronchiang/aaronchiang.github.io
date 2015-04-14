@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/aaronchiang
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.aaronchiang.tw
+  * I am aaronchiang (https://keybase.io/aaronchiang) on keybase.
+  * I have a public key with fingerprint 2BD3 F52E C726 19E3 84F1  AC31 B6E0 4B4D 3E86 E656
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "2bd3f52ec72619e384f1ac31b6e04b4d3e86e656",
+            "host": "keybase.io",
+            "key_id": "b6e04b4d3e86e656",
+            "kid": "0101be17ce0d941fa6fbd3760591dd3af7cd9a1328d70b5a8c4ee780322e7317c6060a",
+            "uid": "d95c1264b319ad5876f46bc0d6012619",
+            "username": "aaronchiang"
+        },
+        "service": {
+            "hostname": "www.aaronchiang.tw",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429052433,
+    "expire_in": 157680000,
+    "prev": "5cd4774597a771295496dd83b964702721e6e7ae7423b3d556d4e2e364ea1c00",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIhAnicbZJbSBVBGIDP6WJmdCcS6bpYdNHDzF5mdg9EhXalh8KMLtpxdmfOOYu2
+e9qzelI7ihlFF7pRZKVUEPWikV0gCkzTLiRBRfRSlFZk9RKlZgRSs1LQQ/MyzP9/
+//fz/0zH2OG+NP+tisF4zuHmPH9n2+pSX352/cRKQbdpuRCsFIrZ0BU2rQhzYo5p
+uUJQEHUqhRWRGVhEUGOSKochMSSoIwZkXaYSUxFDChKyhKgd9yq4RidxFjBtHuOP
+kEl59D988VACQAB1BrHBANVkGCYozFtiBBQNUiqRMDaoRqAkqhQDXSGqITOGVSCJ
+IsMSr0MAAcJ1pUM6qikGFJGsS1AjVFExCstINwBFAHoTeGCcORbZxjhNiGNbRtQk
+VkRIZgk8UWYazNuCN8wfKJFIBP4BA26CS2KO7dqGXcLzUdeNBb1ytzw2xDM99McU
+0k2L8n3ygjLmxE3bEoKQk4ZremooixpQRFmSsgS2I2Y6LGR6hIKRCvjx2rAyrlQM
+KmMsKxomGENRU2QNUapKuoZkDEQsQoYYJgzLoqRLVFEQlZnIJCQzAg0ABG+27ZbN
+3Vzqkgh3xs2IRdxShwnJu60FI3z+NF/KyGHel/CljZ7w96PMLEj1XYo2jjsxCX3s
+zZ02o6EpUFZ4sSuE5+d0bp0d+Fln9rz70HGhvLf+zsOBk+rjwcZXzpXMqn2LUt5W
+hmuznSmzJseWHTmUUlgxYlXynHj51Zjso6dGbZ/6GUQ+Fd12H4w5Pqd9T3p7zfSn
+Z+ve9xSk9y9/8evLroJkyen4vcWpm9Kf/6h4snrBmitHe2p6vq1b8b1z51X169IN
+Nc8fNSbuq2/WDN8f6mvb0r3xdUbUyrdv1i36Hsq74a+uSlZ9zsndXM0aglnzMtP9
+tYWo+eD6lyu7+xuEjIFrcw/MfVY9vXbpsRtW0dr7GPlXNbU0t+beHhi/8OCSrsL6
+1LzrLRmZu0N7+8CZ89d+A4oWKGI=
+=F8Y6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aaronchiang
+
+==================================================================
