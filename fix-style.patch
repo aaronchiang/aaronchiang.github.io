@@ -1,0 +1,55 @@
+diff --git a/_config.yml b/_config.yml
+index d0c023a..dcdc362 100755
+--- a/_config.yml
++++ b/_config.yml
+@@ -5,7 +5,7 @@ locale: zh_TW
+ description: "勾繪生活中的每一步足跡"
+ logo: site-logo.png
+ search: true
+-url: http://www.aaronchiang.tw
++url: https://www.aaronchiang.tw
+ #url: http://0.0.0.0:4000
+ timezone: Asia/Taipei
+ 
+diff --git a/_includes/head.html b/_includes/head.html
+index 5868172..7f4058e 100755
+--- a/_includes/head.html
++++ b/_includes/head.html
+@@ -25,7 +25,9 @@
+ <!-- For all browsers -->
+ <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+ <!-- Webfonts -->
+-<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
++<link rel="preconnect" href="https://fonts.googleapis.com">
++<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Code+Pro:wght@400;700&family=Volkhov&display=swap">
+ 
+ <meta http-equiv="cleartype" content="on">
+ 
+diff --git a/_includes/scripts.html b/_includes/scripts.html
+index a4a6581..0349886 100755
+--- a/_includes/scripts.html
++++ b/_includes/scripts.html
+@@ -1,4 +1,4 @@
+-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
++<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+ <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
+ {% if site.search %}
+diff --git a/_sass/variables.scss b/_sass/variables.scss
+index 415b0c9..98dc075 100755
+--- a/_sass/variables.scss
++++ b/_sass/variables.scss
+@@ -1,9 +1,9 @@
+ // TYPOGRAPHY ================================================
+-$base-font: 'source-sans-pro', sans-serif;
++$base-font: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+ $heading-font: $base-font;
+ $caption-font: $base-font;
+-$code-font: 'source-code-pro', monospace;
+-$alt-font: 'volkhov', serif;
++$code-font: 'Source Code Pro', monospace;
++$alt-font: 'Volkhov', serif;
+ 
+ $doc-font-size: 16;
+ $doc-line-height: 24;
